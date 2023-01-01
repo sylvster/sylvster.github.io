@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My23</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="display">
+            <table id="text">
+                <tr>
+                    <th>Resolution</th>
+                    <th>Count</th>
+                    <th>Units</th>
+                </tr>
+            </table>
+            
+            <form id="list">
+                <label for="resolution">Resolution</label>
+                <input type="text" id="resolution" size="40">
+
+                <label for="count">Count</label>
+                <input type="number" id="count" size="40"> 
+
+                <label for="unit">Unit</label>
+                <input type="text" id="unit" size="10">
+
+                <input type="button" id="submit" value="Submit">
+            </form>
+            
+            <rect id="list-background"></rect>
+        </div>
+        <div class="file-buttons">
+
+            <button class="file-button" id="download-button">Download</button>
+            <a id="file-download" href="action_page.php" hidden></a>
+
+            <input type="button" class="file-button" id="upload-button" value="Upload"></input>
+            <input id="file-upload" type="file"hidden></input>
+
+            <input id="plus-button" type="button" value="+"></button>
+
+        </div>
+        <textarea id="test" hidden></textarea>
+    </body>
+
+    <script src="script.js"></script>
+</html>

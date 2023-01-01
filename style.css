@@ -1,0 +1,70 @@
+#list-background {
+    background-color:aquamarine;
+    position: absolute;
+    left: 25%;
+    width:50%;
+    top:5%;
+    height:70%;
+    border-radius:20px;
+}
+
+#list, #text {
+    position:relative;
+    left:26%;
+    top:50px;
+    z-index: 1;
+}
+
+#text, td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+#list {
+    display: none;
+}
+
+.file-button {
+    background-color:aquamarine;
+    width:200px;
+    height: 100px;
+    border: none;
+    position: absolute;
+    border-radius:50px;
+    font-size: 30px;
+}
+
+#plus-button {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: none;
+    position: absolute;
+    border-radius: 50px;
+    font-size: 30px;
+    left: 90%;
+    top: 80%;
+}
+
+#upload-button {
+    top: 80%;
+    right: 51%;
+}
+
+#download-button {
+    top: 80%;
+    left: 51%;
+}
+
+input[type="number"] {
+    width:40px;
+}
+
+#submit {
+    position: relative;
+    left: 20px;
+}
